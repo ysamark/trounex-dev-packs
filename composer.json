@@ -1,0 +1,50 @@
+{
+  "name": "ysamark/trounex-dev-packs",
+  "version": "1.0.0",
+  "description": "Trounex package development packs",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "keywords": [
+    "trounex",
+    "trounex-development"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Trounex\\": "Trounex/"
+    },
+    "psr-0": {
+      "Trounex\\": "Trounex/"
+    },
+    "files": [
+      "autoload.php"
+    ]
+  },
+  "homepage": "https://github.com/ysamark/trounex-dev-packs",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/ysamark/trounex-dev-packs/issues",
+    "wiki": "https://github.com/ysamark/trounex-dev-packs/wiki"
+  },
+  "require": {
+    "php": ">=5.6.20",
+    "robmorgan/phinx": ">=0.13.4",
+    "php_modules/core": "dev-main",
+    "php_modules/capsule": "dev-main",
+    "php_modules/xsami": "dev-main",
+    "php_modules/gogue": "dev-main",
+    "php_modules/gogue-plugin-capsule": "dev-main",
+    "php_modules/gogue-plugin-capsule-css-parser": "dev-main",
+    "php_modules/capsule-css-file-dependency-watcher": "dev-main",
+    "php_modules/command-line-interface": "dev-main"
+  }
+}
